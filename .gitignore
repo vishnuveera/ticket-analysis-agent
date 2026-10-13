@@ -1,0 +1,44 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+secrets/
+*.secret
+*.pem
+*.key
+*.p12
+*.pfx
+.azure/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local databases and generated files
+*.db
+*.sqlite
+*.sqlite3
+*.log
+uploads/
+data/
+outputs/
+artifacts/
+
+# Ticket data may contain confidential information
+*.csv
+*.xls
+*.xlsx
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
